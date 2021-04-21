@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&family=Ubuntu+Mono&display=swap');
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 248, 237);
+  font-family: 'Sunflower', sans-serif;
+}
+
+body * li{
+  list-style: none;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 10px 16%;
+}
+
+.container h1{
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 5rem;
+}
+
+nav .menu{
+  padding: 0;
+  display: flex;
+  margin-right: 0px;
+  margin-bottom: 0;
+}
+
+nav .menu li{
+  list-style-type: none;
+  flex-direction: row-reverse;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+#line1{
+  border: inset 3px gray;
+  margin: 10px 15%;
+}
+
+#line2{
+  margin: auto 15%;
+  border: inset 3px gray;
+}
+
+.container .menu a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.container .menu .nav-s:hover{
+  color: gray;
+  transform: scale(1.08);
+  background-color: #ccc5bb;
+  transition: all 0.3s;
+}
+
+.container .menu .select{
+  background-color: #ccc5bb;
+}
+
+/* board */
+
+.board-manu{
+  margin: 30px 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.board-manu .boarda{
+  border: 2px solid black;
+  height: 700px;
+  width: 500px;
+  box-shadow: 13px -13px gray;
+  background: #ccc5bb;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.board-manu .boarda:hover{
+  transform: scale(1.03);
+  transition: all 0.2s;
+}
+
+.board-manu .boarda .board1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+
+.board-manu .boarda .board1 h3, .board-manu .boarda .board1 p{
+  border: 2px solid black;
+  padding: 5px 10px;
+  background: #9b958b;
+  border-radius: 5px;
+}
+
+.board-manu .boarda .board1 h3{
+  font-size: 1.5rem;
+}
+
+ 
+
+/* section */
+
+.main-cont{
+  margin: 20px 16%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  border-collapse: separate;
+  padding: 20px;
+}
+
+.container-1{
+  height: 70%;
+  display: flex;
+  border-collapse: separate;
+}
+
+.container-1 .left-img{
+  width: 50%;
+  border-collapse: separate;
+}
+
+.container-1 .right-img{
+  width: 50%;
+  border-collapse: separate;
+}
+
+.container-1 .right-img .gallery1{
+  height: 50%;
+  display: flex;
+}
+
+.container-1 .right-img .gallery2{
+  height: 50%;
+  display: flex;
+}
+
+.container-1 .left-img img{
+  width: 99.5%;
+  height: 99.1%;
+  border: 3px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container-1 .right-img * img{
+  width: 49%;
+  border: 3px solid black;
+}
+
+
+.container-1 .right-img .gallery1 .img2{
+  border-top-right-radius: 10px;
+}
+
+.container-1 .right-img .gallery2 .img4{
+  border-bottom-right-radius: 10px;
+}
+
+.container-2{
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 30%;
+}
+
+
+.container-2 h3{
+  margin: 0 30px;
+}
+
+.container-2 p{
+  padding: 0 30px;
+  border-left: 7px double black;
+}
+
+/* 사이트 기술 소개 */
+
+.site{
+  border: 1px solid black;
+  margin: 20px 16%;
+  padding: 0 10px;
+  height: 700px;
+}
+
+.site * a{
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.site-m{
+  display: flex;
+  flex-direction: column;
+}
+
+.site-ma{
+  border-radius: 10px;
+}
+
+.site-m h3{
+  font-size: 1.6rem;
+  border: 1px solid black;
+}
+
+.site-m p{
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+
+.site .site-m .site-li .site-ma a:hover{
+  transform: scale(1.05);
+  transition: all 0.2s;
+  background: #9b958b;
+  border-radius: 10px;
+}
+
+.site .site-m .site-li .site-ma{
+  display: flex;
+  background-color: #ccc5bb;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  width: auto;
+  max-width: 500px;
+}
+
+.site .site-m .site-li .site-ma li{
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+/* footer */
+
+.bot{
+  display: flex;
+}
+
+.foot{
+  list-style-type: none;
+  margin-left: 16%;
+  color: gray;
+  padding: 3px;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.list2{
+  float: left;
+  color: gray;
+  padding-left: auto;
+  padding: 5px 10px;
+}
+
+.sns{
+  margin-left: 16%;
+  padding-left: 10px;
+  float: left;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright{
+  font-size: 0.5rem;
+  margin-left: 20px;
+  color: gray;
+}
+
+.icon{
+  color: black;
+  font-size: 1.5rem;
+}
+
+footer .bot .foot a{
+  color: gray;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+  
+  .container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .menu{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav{
+    width: 150px;
+  }
+
+  .container .menu li{
+    text-align: center;
+  }
+
+  .container h1{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Board */
+
+  .board-manu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .board-manu .boarda{
+    height: 500px;
+    width: 350px;
+  }
+
+  /* main */
+
+  .main-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+  }
+
+  .container-1 .right-img .gallery1 .img1{
+    border-top-left-radius: 10px;
+  }
+
+  .container-1 .right-img .gallery1 .img2{
+    border-top-right-radius: 10px;
+  }
+
+  .container-1 .right-img .gallery2 .img3{
+    border-bottom-left-radius: 10px;
+  }
+
+  .container-1 .right-img .gallery2 .img4{
+    border-bottom-right-radius: 10px;
+  }
+
+  .container-1 .left-img{
+    width: 330px;
+    height: 350px;
+  }
+
+  .container-1 .right-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-1 .right-img img{
+    width: 150px;
+  }
+
+  .container-1 .left-img img{
+    border-radius: 10px;
+  }
+
+  .main-cont .container-2{
+    margin: 10px 30px;
+    text-align: center;
+    padding: 0 3px;
+    height: 20%;
+  }
+
+
+
+  /* footer */
+
+  footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .bot{
+    display: flex;
+  }
+
+  footer .bot .foot{
+    margin: 0;
+    display: flex;
+  }
+
+  footer .sns{
+    margin: 0;
+  }
+
+}
