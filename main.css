@@ -1,0 +1,148 @@
+html, body{
+  background: url('imgbox/sky-5375005.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+/* header */
+
+header a{
+  font-size: 4rem;
+  color: black;
+  text-decoration: none;
+  text-shadow: 3px 3px gray;
+}
+
+header a:hover{
+  color: whitesmoke;
+  text-shadow: 10px 10px gray;
+  transition: all 0.2s;
+}
+
+/* main */
+
+main{
+  margin: 50px;
+}
+
+main ul{
+  border: 3px solid black;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+main ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+}
+
+main ul a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+main ul li:hover{
+  transform: scale(1.1);
+  transition: all 0.2s;
+  color: whitesmoke;
+}
+
+main ul:hover{
+  border: 3px solid whitesmoke;
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
+main ul:hover *{
+  color: gray;
+}
+
+
+
+
+/* footer */
+
+footer{
+  margin: 0 20px;
+  border-left: 3px solid black;
+}
+
+footer:hover{
+  border-left: 3px solid whitesmoke;
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
+footer .foot{
+  margin: 10px;
+  padding: 0;
+}
+
+footer .foot li{
+  list-style: none;
+  padding: 5px;
+}
+
+footer .sns {
+  margin: 0;
+  padding: 0.6rem;
+}
+
+footer .foot * {
+  text-decoration: none;
+  color: #a39ea3;
+  font-size: 10px;
+}
+
+footer .sns i {
+  font-size: 20px;
+  color: #00001b;
+}
+
+footer .sns i:hover{
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
+footer .sns p {
+  margin: 0;
+  color: #a39ea3;
+  font-size: 0.6rem;
+}
+
+footer:hover *{
+  color: #d4cfd4; 
+}
+
+
+@media screen and (max-width: 768px){
+  html, body{
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+  }
+
+  header{
+    margin: 0;
+  }
+
+  main{
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+
+  footer{
+    border-top: 3px solid black;
+    border-left: none;
+  }
+}
