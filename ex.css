@@ -479,6 +479,7 @@ input[id="tab03"]:checked ~ .con3 {display: block;}
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 .gallerylist ul > li {
@@ -630,6 +631,43 @@ input[id="tab03"]:checked ~ .con3 {display: block;}
   text-decoration: none;
   color: #fff;
 }
+
+.sitever1 {
+  display: flex;
+  align-items: center;
+
+}
+
+.sitever1 .tab_cont{
+  border: 1px solid wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-1 .tab_cont .conb{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: none;
+} 
+
+input[type="checkbox"] {display: none;}
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 20px;
+  color: #b5a8cc;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input[type="checkbox"]:checked + label {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.site-1 .tab_cont input[id="ta"]:checked ~ .co {display: block;}
 
 
 
