@@ -315,7 +315,7 @@ nav .menu li{
 
 .team-int h3 {
   font-size: 2rem;
-  color: #b5a8cc;
+  color: #fff;
 }
 
 
@@ -329,7 +329,6 @@ nav .menu li{
 .team-int .team-int1 ul{
   border-left: 3px solid black;
   padding: 0;
-  margin: 30px;
   font-size: 1.2rem;
 }
 
@@ -582,15 +581,30 @@ input[id="tab03"]:checked ~ .con3 {display: block;}
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: rgba(27, 31, 57, 0.5);
   border-radius: 10px;
 }
+
+.site .tte {
+  display: flex;
+  color: #b5a8cc;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.site .tte a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b5a8cc;
+}
+
 
 .site .site-1{
   margin: 50px 10px;
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 .site h2{
@@ -604,6 +618,7 @@ input[id="tab03"]:checked ~ .con3 {display: block;}
 
 .site .site-1 .set2 h3{
   font-size: 1.5rem;
+  color: white;
 }
 
 .site .site-1 p{
@@ -763,6 +778,7 @@ footer .sns i:hover{
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0 auto;
+    width: 90%;
   }
 
   .board-manu .boarda{
@@ -787,6 +803,7 @@ footer .sns i:hover{
     padding: 0;
     height: 100%;
     margin: 0 auto;
+    width: 90%;
   }
 
   .main-cont .container-1 {
@@ -826,6 +843,7 @@ footer .sns i:hover{
   
   .portfolio {
     margin: 0  auto;
+    width: 90%;
   }
   
 
@@ -833,32 +851,42 @@ footer .sns i:hover{
 
   .team {
     margin: 0 auto;
+    width: 90%;
   }
 
   .team .team-int .team-int1{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .team-int h2{
     font-size: 1.5rem;
+    border-bottom: 3px solid #030830;
   }
 
   .team-int h3{
     font-size: 1.2rem;
+    border-bottom: 3px solid #030830;
   }
 
   .team-int .team-int1 ul{
     font-size: 1rem;
+    border-bottom: 3px solid #030830;
+    border-left: none;
   }
 
   /* 사이트기술소개 */
   .site {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding: 0;
+    align-items: center;
   }
   
+  .site .tte {
+    flex-direction: column-reverse;
+  }
+
   .site h2{
     font-size: 1.5rem;
   }
