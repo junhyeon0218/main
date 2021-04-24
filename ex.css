@@ -440,6 +440,14 @@ nav .menu li{
   text-align: center;
 }
 
+.portfolio .tab_content a {
+  color: #b5a8cc;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
 input[type="radio"] {display: none;}
 input[type="radio"] + label {
   display: inline-block;
@@ -754,6 +762,7 @@ footer .sns i:hover{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin: 0 auto;
   }
 
   .board-manu .boarda{
@@ -777,6 +786,7 @@ footer .sns i:hover{
     align-items: center;
     padding: 0;
     height: 100%;
+    margin: 0 auto;
   }
 
   .main-cont .container-1 {
@@ -812,10 +822,18 @@ footer .sns i:hover{
     font-size: 1rem;
   }
 
-
+  /* 포트폴리오 */
+  
+  .portfolio {
+    margin: 0  auto;
+  }
   
 
   /* 팀프로젝트 */
+
+  .team {
+    margin: 0 auto;
+  }
 
   .team .team-int .team-int1{
     display: flex;
@@ -836,7 +854,7 @@ footer .sns i:hover{
 
   /* 사이트기술소개 */
   .site {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
