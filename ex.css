@@ -662,7 +662,6 @@ input[id="tab03"]:checked ~ .con3 {display: block;}
 }
 
 .sitever1 .tab_cont{
-  border: 1px solid wheat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -691,6 +690,14 @@ input[type="checkbox"]:checked + label {
 }
 
 .site-1 .tab_cont input[id="ta"]:checked ~ .co {display: block;}
+
+.sitever1 .tab_cont .conb{
+  width: 100%;
+}
+
+.sitever1 .tab_cont .conb video{
+  width: 100%;
+}
 
 
 
