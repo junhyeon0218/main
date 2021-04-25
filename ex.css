@@ -380,6 +380,7 @@ nav .menu li{
 .main-cont .container-1 .prof-inf {
   margin: 0 30px;
   width: 30%;
+  border: 3px dotted #030830;
 }
 
 .main-cont .container-1 .prof-inf ul{
@@ -395,7 +396,7 @@ nav .menu li{
 .main-cont .container-1 .prof-inf ul li{
   font-size: 1.3rem;
   color: #b5a8cc;
-  padding: 4px;
+  padding: 4px 10px;
 }
 
 
@@ -831,6 +832,7 @@ footer .sns i:hover{
 
   .main-cont .container-1 .prof-inf {
     width: 50%;
+    border: none;
   }
 
   .main-cont .container-1 .prof-inf ul{
